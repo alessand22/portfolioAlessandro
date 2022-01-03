@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-01-03-anlise-da-base-rais/",
+    "title": "Análise da base RAIS",
+    "description": "Análise com o objetivo de nalisar salários da base RAIS. Esse projeto foi criado na Semana Data Science na Prática do Curso-R",
+    "author": [
+      {
+        "name": "Alessandro de Castro Correa",
+        "url": {}
+      }
+    ],
+    "date": "2022-01-03",
+    "categories": [],
+    "contents": "\r\nEsse é o meu primeiro projeto no portfólio.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-03T19:40:10-03:00",
+    "input_file": "anlise-da-base-rais.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Portfolio do Alessandro",
     "description": "Blog de teste de Alessandro de Castro Corrêa criado na Semana Data Science",

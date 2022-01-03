@@ -9,6 +9,7 @@
 # install.packages("usethis")
 install.packages("distill")
 library(distill)
+install.packages("fastmap")
 
 
 #####~~~~~     Passo 2 - Criar um projeto
@@ -16,7 +17,7 @@ usethis::create_package("portfolioAlessandro")
 
 # Notas:
 # a) Não aceita underline, somente letras e pontos
-# b) Vai abrir nova jenela. Pode fechar a anterior
+# b) Vai abrir nova janela. Pode fechar a anterior
 
 
 #####~~~~~     Passo 3 - Conectar com github
@@ -44,6 +45,40 @@ gitcreds::gitcreds_set()
 
 # Habilitar o github
 usethis::use_git()
+
+
+# Criar uma cópia da pasta para o GitHib
+usethis::use_github()
+
+
+# Informar que a pasta vai ser site
+usethis::use_github_pages("master", "/docs")
+
+# Notas:
+# a) fazer no "master" e na pasta "/docs"
+# b) Verificar no git: settings/Pages e em source
+#    deve ter:
+#    "Your GitHub Pages site is currently being built
+#     from the /docs folder in the master branch."
+
+
+#####~~~~~     Passo - Criar o blog
+
+# Criar arquivo (fica oculto, então ver TRUE)
+file.create(".nojekyll")
+
+list.files(all.files = TRUE) # exibe ocultos tb.
+distill::create_blog(".","Portfolio do Alessandro",
+                     gh_pages = TRUE)
+
+#[seu_login].github.io/[seu repo]/
+# https://alessand22.github.io/portfolioAlessandro/
+
+alessand22.github.io/portfolioAlessandro
+
+distill::create_post("Análise da base RAIS")
+
+
 
 
 
