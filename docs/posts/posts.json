@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Portfolio do Alessandro",
+    "description": "Blog de teste de Alessandro de Castro Corrêa criado na Semana Data Science",
+    "author": [
+      {
+        "name": "Alessandro de Castro Correa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2022-01-02",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-02T14:12:46-03:00",
+    "input_file": "welcome.knit.md"
+  }
+]

@@ -1,0 +1,25 @@
+---
+title: "Welcome to Portfolio do Alessandro"
+description: |
+  Blog de teste de Alessandro de Castro Corrêa criado na Semana Data Science
+author:
+  - name: Alessandro de Castro Correa
+    url: https://example.com/norajones
+    affiliation: IFPA
+    affiliation_url: https://example.com/spacelysprokets
+date: 01-02-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
